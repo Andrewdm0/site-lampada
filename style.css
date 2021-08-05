@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --black: rgb(44, 43, 43);
+    --yellow: rgb(245, 245, 51);
+    --pink: rgb(253, 140, 224);
+    
+}
+
+body{
+    background-image: url(/assets/fundo-bg.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    margin: 10rem 2rem;
+}
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+    width: 90vw;
+}
+
+header h1{
+    color: white;
+    margin: 1rem 3rem;
+}
+
+header .button{
+    height: 5vh;
+    width: 12vw;
+    margin: 1rem;
+    border-radius: 8px;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+header .button:hover{
+    text-shadow: 0px 0px 10px white;
+}
+
+
+/* Conteúdo */
+
+div.container{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 2rem;
+    width: 90vw;
+    color: white;
+    white-space: nowrap;
+}
+
+section h1{
+    color: white;
+    font: 50pt Poppins;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.botao:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+.divampada{
+    justify-self: center;
+}
+
+img.lampada{
+    max-width: 250px;
+    filter: drop-shadow(0 0 10px black);
+    justify-self: center;
+}
+
+/* Rodapé */
+
+footer{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
