@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    background-image: url(/assets/fundo-bg.jpg);
+    background-image: url(assets/fundo-bg.jpg);
     background-size: cover;
     background-position: center;
     font-family: 'Poppins', sans-serif;
